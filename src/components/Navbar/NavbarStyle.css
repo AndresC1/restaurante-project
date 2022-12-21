@@ -1,0 +1,9 @@
+.EstiloLinksNavbar{
+    @apply flex flex-col xl:flex-row hover:bg-[#f1f1f1f1] py-3 xl:py-7 justify-center xl:justify-start xl:pl-10 items-center text-xs xl:text-base xl:hover:font-semibold;
+}
+.EstiloIconsNavbar{
+    @apply w-3/12 xl:w-5 xl:group-hover:w-6 xl:mr-5 h-auto;
+}
+#barraNavegacion::-webkit-scrollbar{
+    display: none;
+}
