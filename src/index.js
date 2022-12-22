@@ -4,11 +4,23 @@ import 'tailwindcss/tailwind.css'
 import { ContextDataProvider } from './context/ContextData';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './page/HomePage';
+import Template from './page/Template';
+import MenuPage from './page/MenuPage';
 
 const rutas = createBrowserRouter([
   {
     path: '/',
-    element: <HomePage/>
+    element: <Template/>,
+    children: [
+      {
+        path: '/',
+        element: <HomePage/>
+      },
+      {
+        path: '/menu',
+        element: <MenuPage/>
+      }
+    ]
   }
 ])
 
