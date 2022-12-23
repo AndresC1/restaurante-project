@@ -12,7 +12,7 @@ export default function Welcome() {
         <div className='lg:w-5/12 w-7/12 flex items-center justify-center flex-col'>
             <h1 className='lg:text-4xl xl:text-5xl md:text-3xl sm:text-2xl text-md w-11/12 font-mono h-full flex justify-center items-center'>La comida es nuestro arte. En la variedad está el Gusto.</h1>
             <div className='mt-4 md:mt-8 pl-4 w-11/12 xl:w-9/12 lg:w-10/12 md:w-full h-10 flex justify-start'>
-                <Link className='text-color_blanco hover:scale-105 bg-color_naranja font-semibold md:px-7 rounded-lg flex justify-evenly items-center text-xs lg:text-base px-3'><IoRestaurantOutline className='mr-3'/>Ver menu</Link>
+                <Link to={'/menu'} className='text-color_blanco hover:scale-105 bg-color_naranja font-semibold md:px-7 rounded-lg flex justify-evenly items-center text-xs lg:text-base px-3'><IoRestaurantOutline className='mr-3'/>Ver menu</Link>
             </div>
         </div>
         <img className='w-5/12' src="https://i.imgur.com/2np1hB1.png" alt="home" />

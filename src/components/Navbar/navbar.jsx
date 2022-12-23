@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className='bg-white md:hidden fixed bottom-0 left-0 w-full h-16'>
         <ul className='flex justify-around h-full'>
           <Link to={'/'} className='h-full bg-white w-full flex flex-col justify-center items-center text-color_naranja'><BiHomeAlt className='h-auto w-6'/><h1 className='text-sm'>Inicio</h1></Link>
-          <Link to={'/home'} className='h-full bg-white w-full flex flex-col justify-center items-center text-color_naranja'><IoRestaurantOutline className='h-auto w-6'/><h1 className='text-sm'>Menu</h1></Link>
+          <Link to={'/menu'} className='h-full bg-white w-full flex flex-col justify-center items-center text-color_naranja'><IoRestaurantOutline className='h-auto w-6'/><h1 className='text-sm'>Menu</h1></Link>
           <Link className='h-full bg-white w-full flex flex-col justify-center items-center text-color_naranja'><MdOutlineContacts className='h-auto w-6'/><h1 className='text-sm'>Contacto</h1></Link>
         </ul>
       </div>
