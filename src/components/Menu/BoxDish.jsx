@@ -18,8 +18,8 @@ export default function BoxDish(props) {
                     <h1 className='w-9/12 m-auto h-16 my-5 text-gray-600 font-mono font-normal'>{props.value.descripcion}   </h1>
                     <h1 className='w-full h-10 flex justify-center items-center text-green-800 font-bold text-lg font-mono'>U$ {parseFloat(props.value.precio).toFixed(2)}</h1>
                     <div className='w-9/12 m-auto flex justify-start items-center'>
-                        <button onClick={(e) => contexto.OpenWindowEmergent(props.value)} className='bg-green-900 w-10/12 hover:scale-105 text-white font-semibold text-lg flex justify-center items-center h-12 rounded-xl m-auto mt-6 mb-2'><RxReader className='mr-3 w-5 h-auto'/>Ver mas</button>
-                        <button onClick={(e) => contexto.DishFav(props.value)} className='w-2/12 flex justify-center items-center h-12 mt-4 ml-1'>{props.value.favorito ? <AiTwotoneHeart className='h-auto w-8 hover:scale-110 text-red-600'/> : <AiOutlineHeart className='h-auto w-8 hover:scale-110 text-gray-900'/>}</button>
+                        <button onClick={(e) => contexto.OpenWindowEmergent(props.value)} className='bg-green-900 w-10/12 hover:scale-105 transition-all text-white font-semibold text-lg flex justify-center items-center h-12 rounded-xl m-auto mt-6 mb-2'><RxReader className='mr-3 w-5 h-auto'/>Ver mas</button>
+                        <button onClick={(e) => contexto.DishFav(props.value)} className='w-2/12 flex justify-center items-center h-12 mt-4 ml-1'>{props.value.favorito ? <AiTwotoneHeart className='h-auto w-8 hover:scale-110 transition-all text-red-600'/> : <AiOutlineHeart className='h-auto w-8 hover:scale-110 text-gray-900'/>}</button>
                     </div>
                 </div>
             </div>
@@ -29,8 +29,8 @@ export default function BoxDish(props) {
                 <h1 className='mt-4 w-9/12 m-auto text-gray-800 text-center mb-6'>{props.value.descripcion}</h1>
                 <h1 className='w-9/12 m-auto text-xl text-center font-bold text-green-800 mb-5'>U$ {parseFloat(props.value.precio).toFixed(2)}</h1>
                 <div className='w-10/12 m-auto flex justify-start items-center'>
-                    <button onClick={(e) => contexto.OpenWindowEmergent(props.value)} className='bg-green-900 w-10/12 hover:scale-105 text-white font-semibold text-lg flex justify-center items-center h-12 rounded-xl m-auto mt-6 mb-2'><RxReader className='mr-3 w-5 h-auto'/>Ver mas</button>
-                    <button onClick={(e) => contexto.DishFav(props.value)} className='w-2/12 flex justify-center items-center h-12 mt-4 ml-1'>{props.value.favorito ? <AiTwotoneHeart className='h-auto w-8 hover:scale-110 text-red-600'/> : <AiOutlineHeart className='h-auto w-8 hover:scale-110 text-gray-900'/>}</button>
+                    <button onClick={(e) => contexto.OpenWindowEmergent(props.value)} className='bg-green-900 w-10/12 hover:scale-105 transition-all text-white font-semibold text-lg flex justify-center items-center h-12 rounded-xl m-auto mt-6 mb-2'><RxReader className='mr-3 w-5 h-auto'/>Ver mas</button>
+                    <button onClick={(e) => contexto.DishFav(props.value)} className='w-2/12 flex justify-center items-center h-12 mt-4 ml-1'>{props.value.favorito ? <AiTwotoneHeart className='h-auto w-8 hover:scale-110 transition-all text-red-600'/> : <AiOutlineHeart className='h-auto w-8 transition-all hover:scale-110 text-gray-900'/>}</button>
                 </div>
             </div>
         </>
