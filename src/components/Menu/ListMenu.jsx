@@ -5,8 +5,9 @@ import EmptyList from './EmptyList'
 
 export default function ListMenu() {
     const contexto = useContextDataApp()
+    const DataOrd = contexto.DataDish.sort((a, b) => b.favorito - a.favorito)
 
-    const data = contexto.DataDish.map((element) => {
+    const data = DataOrd.map((element) => {
         return <BoxDish key={element.id} value={element}/>
     })
     return (

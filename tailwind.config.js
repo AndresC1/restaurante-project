@@ -12,6 +12,7 @@ module.exports = {
         'color_verde': '#ADC59C',
         'degradado_primario': '#f2f0f1',
         'degradado_secundario': '#c2bdbe',
+        'color_fondo_modal': 'RGBA(0,0,0,0.16)'
       }
     },
   },
