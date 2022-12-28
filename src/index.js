@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './page/HomePage';
 import Template from './page/Template';
 import MenuPage from './page/MenuPage';
+import ContactPage from './page/ContactPage';
 
 const rutas = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const rutas = createBrowserRouter([
       {
         path: '/menu',
         element: <MenuPage/>
+      },
+      {
+        path: '/contacto',
+        element: <ContactPage/>
       }
     ]
   }

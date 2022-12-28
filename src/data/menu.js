@@ -57,7 +57,7 @@ const menu = [
         id : 7,
         plato : 'Pizza vegetariana',
         imagen : 'https://i.imgur.com/CGPFBFS.png',
-        descripcion : 'PIzza vegetariana de tomatillo, aceituna negras y albahaca', 
+        descripcion : 'Pizza vegetariana de tomatillo, aceituna negras y albahaca', 
         precio : 15.60,
         valoracion: "4.9",
         favorito: true
