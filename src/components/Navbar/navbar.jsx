@@ -4,12 +4,13 @@ import '../../css/NavbarStyle.css'
 import { BiHomeAlt } from 'react-icons/bi';
 import { IoRestaurantOutline } from 'react-icons/io5';
 import { MdOutlineContacts } from 'react-icons/md';
+import logo from '../../static/Navigandum.jpg'
 
 export default function Navbar() {
   return (
     <>
       <div className=' bg-white xl:w-2/12 w-20 min-h-full overflow-y-auto md:flex hidden flex-col xl:space-y-10 space-y-4 pb-32' id='barraNavegacion'>
-        <img className='w-11/12 hidden xl:block mx-auto my-10 h-auto' src="https://cdn.dribbble.com/users/1111447/screenshots/13124975/media/0987478147cb552305c3a0a8f5ed8489.jpg?compress=1&resize=800x600&vertical=top" alt="logo" />
+        <img className='w-11/12 hidden xl:block mx-auto my-10 h-auto' src={logo} alt="logo" />
         <ul className='w-full h-auto flex justify-evenly space-y-4 xl:space-y-2 flex-col'>
             <Link to={'/'} className='EstiloLinksNavbar group'><BiHomeAlt className='EstiloIconsNavbar'/><span>Inicio</span></Link>
             <Link to={'/menu'} className='EstiloLinksNavbar group'><IoRestaurantOutline className='EstiloIconsNavbar'/><span>Menu</span></Link>

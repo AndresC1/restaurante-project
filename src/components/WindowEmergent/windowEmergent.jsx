@@ -13,11 +13,11 @@ export default function WindowEmergent() {
     return (
         <div ref={contexto.RefWindowEmergent} className='w-full transition-all hidden h-full top-0 right-0 fixed bg-color_fondo_modal'>
             <div className='w-full h-full flex justify-center items-center'>
-                <div className='xl:w-6/12 md:w-9/12 w-11/12 h-5/6 px-2 pt-2 pb-14 md:h-auto bg-white rounded-2xl'>
+                <div className='xl:w-6/12 lg:w-9/12 w-11/12 h-5/6 px-2 pt-2 pb-14 lg:h-auto bg-white rounded-2xl'>
                     <div className='w-full h-12 flex justify-end items-center'>
                         <button onClick={contexto.ClosedWindowEmergent} className='w-5 h-5 mr-4 hover:scale-110 transition-all'><GrClose className='w-full h-full'/></button>
                     </div>
-                    <div className='grid grid-cols-10 h-full xl:px-14 md:px-8 overflow-y-scroll md:overflow-y-hidden' id='contenido'>
+                    <div className='grid grid-cols-10 h-full xl:px-14 md:px-8 overflow-y-scroll lg:overflow-y-hidden' id='contenido'>
                         <div className='col-span-4 rounded-xl w-full h-96 flex justify-center items-center'>
                             <img className='w-10/12 h-auto my-5 hover:scale-105 transition-all mx-16' src={element.imagen} alt={element.plato} />
                         </div>
