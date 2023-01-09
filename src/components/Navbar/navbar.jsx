@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <>
       <div className=' bg-white xl:w-2/12 w-20 min-h-full overflow-y-auto md:flex hidden flex-col xl:space-y-10 space-y-4 pb-32' id='barraNavegacion'>
-        <img className='w-11/12 hidden xl:block mx-auto my-10 h-auto' src={logo} alt="logo" />
+        <img className='w-11/12 max-w-[20em] hidden xl:block mx-auto my-10 h-auto' src={logo} alt="logo" />
         <ul className='w-full h-auto flex justify-evenly space-y-4 xl:space-y-2 flex-col'>
             <Link to={'/'} className='EstiloLinksNavbar group'><BiHomeAlt className='EstiloIconsNavbar'/><span>Inicio</span></Link>
             <Link to={'/menu'} className='EstiloLinksNavbar group'><IoRestaurantOutline className='EstiloIconsNavbar'/><span>Menu</span></Link>

@@ -60,7 +60,7 @@ const menu = [
         descripcion : 'Pizza vegetariana de tomatillo, aceituna negras y albahaca', 
         precio : 15.60,
         valoracion: "4.9",
-        favorito: true
+        favorito: false
     },
 ];
 

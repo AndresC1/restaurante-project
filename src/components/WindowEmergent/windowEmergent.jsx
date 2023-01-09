@@ -13,7 +13,7 @@ export default function WindowEmergent() {
     return (
         <div ref={contexto.RefWindowEmergent} className='w-full transition-all hidden h-full top-0 right-0 fixed bg-color_fondo_modal'>
             <div className='w-full h-full flex justify-center items-center'>
-                <div className='xl:w-6/12 lg:w-9/12 w-11/12 h-5/6 px-2 pt-2 pb-14 lg:h-auto bg-white rounded-2xl'>
+                <div className='xl:w-6/12 lg:w-9/12 w-11/12 max-w-[65em] h-5/6 px-2 pt-2 pb-14 lg:h-auto bg-white rounded-2xl'>
                     <div className='w-full h-12 flex justify-end items-center'>
                         <button onClick={contexto.ClosedWindowEmergent} className='w-5 h-5 mr-4 hover:scale-110 transition-all'><GrClose className='w-full h-full'/></button>
                     </div>

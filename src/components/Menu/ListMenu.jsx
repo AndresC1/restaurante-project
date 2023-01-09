@@ -11,7 +11,7 @@ export default function ListMenu() {
         return <BoxDish key={element.id} value={element}/>
     })
     return (
-        <div className='grid lg:grid-cols-2 grid-cols-1 m-auto'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 m-auto w-full max-w-[75em]'>
             {(contexto.DataDish.length===0)? <EmptyList/> : data}
         </div>
     )
